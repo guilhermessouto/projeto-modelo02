@@ -180,7 +180,9 @@ height: 480px;}
 
     #box-1{width: 259px;
         margin: auto;
-        padding: 112px;}
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0;}
     #box-2{width: 100%;
         height: 480px;}
 
@@ -189,12 +191,16 @@ height: 480px;}
         height: 480px;}
     #box-4{width: 259px;
         margin: auto;
-        padding: 112px;}
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0;}
 
     .container3{flex-direction: column-reverse;}
     #box-5{width: 259px;
         margin: auto;
-        padding: 112px;}
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0;}
     #box-6{width: 100%;
         height: 480px;}}
 
