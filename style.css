@@ -114,8 +114,7 @@ margin-top: 10px;}
         
 .containerprincipal{width: 100%;}
 
-.container{display: flex;
-flex-direction: row;}
+.container{display: flex;}
 
 #box-1{width: 33.4%;
 margin: auto;
