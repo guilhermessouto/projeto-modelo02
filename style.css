@@ -72,7 +72,8 @@ background-color: var(--cor01);}
 margin: auto;}
 
 .iconflex{display: flex;
-flex-direction: row;}
+flex-direction: row;
+    justify-content: center;}
 
 .iconalign{width: 410px;
 height: 200px;
@@ -215,7 +216,8 @@ height: 480px;}
     margin: auto;}
 
 .peopleflex{display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+    justify-content: center;}
 
 .peoplealign{width: 410px;
     height: 300px;
