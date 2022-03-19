@@ -6,8 +6,7 @@
 --cor02: rgb(0, 89, 255);}
 
 header{background-color: var(--cor01);
-padding-top: 10px;
-padding-bottom: 10px;}
+padding: 15px 0;}
 
 .header-1{display: flex;
 align-items: center;
@@ -29,21 +28,20 @@ border-radius: 5px;}
 
 
 
-.ocean{width: 100%;
-height: 500px;
+.ocean{padding: 150px 0;
 background-image: url(imagens/ocean.jpg);
 background-repeat: no-repeat;
 background-size: cover;}
 
-.ocean h1{width: 25;
-margin: auto;
-text-align: center;
+.ocean h1{text-align: center;
 font-size: 2.4em;
-padding-top: 125px;
 padding-bottom: 35px;}
 
 .login{display: flex;
-justify-content: center;}
+justify-content: center;
+flex-wrap: wrap;
+width: 95%;
+margin: auto;}
 
 .login input{font-size: 1.1em;
 padding: 20px 100px 20px 25px;
@@ -58,25 +56,29 @@ text-decoration: none;
 color: white;
 font-size: 1.1em;}
 
-@media(max-width: 475px){
-    .login{flex-wrap: wrap;}}
+@media(max-width: 443px){
+    .login a{margin-top: 20px;}}
+
+@media(max-width: 350px){
+    .login input{padding: 20px 30px 20px 25px;}
+}
+
+@media(max-width: 280px){
+    .login input{padding: 10px 10px 10px 10px;}
+}
 
 
 
-
-.iconpadding{padding-top: 75px;
-padding-bottom: 75px;
+.iconpadding{padding: 100px 0;
 background-color: var(--cor01);}
 
 .iconmargem{width: 90%;
 margin: auto;}
 
 .iconflex{display: flex;
-flex-direction: row;
-    justify-content: center;}
+justify-content: center;}
 
 .iconalign{width: 410px;
-height: 200px;
 margin: 0 15px 0 15px;}
 
 #icon1{background-image: url(imagens/site.png);
