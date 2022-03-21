@@ -35,7 +35,7 @@ header{padding: 15px 0;
 .sec-1-padding h1{text-align: center;
     width: 95%;
     margin: auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 2.1em;}
 
 .sec-1-flex{display: flex;
@@ -76,7 +76,8 @@ header{padding: 15px 0;
     width: 80%;
     margin: auto;}
 
-.icons-config{margin: 15px 10px;}
+.icons-config{margin: 15px 10px;
+    width: 32%;}
 
 .icons-config h1{margin: 10px 0;
     text-align: center;
@@ -97,7 +98,8 @@ header{padding: 15px 0;
 #icons-img-3{background-image: url(imagens/engine.png);}
 
 @media(max-width: 625px){
-    .sec-2-flex{flex-direction: column;}}
+    .sec-2-flex{flex-direction: column;}
+    .icons-config{width: 100%;}}
 
 
 
@@ -233,7 +235,7 @@ header{padding: 15px 0;
 .sec-5-padding h1{text-align: center;
     width: 95%;
     margin: auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 2.1em;}
 
 .sec-5-flex{display: flex;
@@ -262,6 +264,10 @@ header{padding: 15px 0;
 @media(max-width: 275px){
     .sec-5-flex input{padding: 15px 10px 15px 15px;}}
 
+
+
+
+    
 footer{padding: 40px 0;}
 
 .footer-flex{display: flex;
@@ -272,7 +278,9 @@ footer{padding: 40px 0;}
 
 .about{width: 50%;}
 
-.about a{display: block;}
+.about a{display: block;
+    text-decoration: underline;
+    padding: 5px 0;}
 
 .about p{margin: 10px 0;}
 
